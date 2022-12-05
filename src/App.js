@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+//Componentes de 3eros
+
+
+//Componentes propios
+import React from 'react';
+import Header from './components/Header';
+import Card from './components/Card';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header titleHeader = "Galería de imágenes con React" />
+      <div>
+        
+        <Card imageCard = "#" titleCard = "#" textCard = "#" altImage = "Imágen de " />
+
+        <Card imageCard = "#" titleCard = "#" textCard = "#" altImage = "Imágen de " />
+
+        <Card imageCard = "#" titleCard = "#" textCard = "#" altImage = "Imágen de " />
+
+      </div>
+      <Footer textFooter = "Creado por Cristóbal Paredes" />
     </div>
   );
 }
