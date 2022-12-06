@@ -2,7 +2,10 @@ import React from 'react';
 
 const Footer = (props) =>{
   return(
-    <p>{props.textFooter}</p>
+    <div className = "container-footer">
+      <p className = "footer">{props.textFooter}</p>
+    </div>
+    
   )
 };
 
