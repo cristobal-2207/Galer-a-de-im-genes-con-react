@@ -36,12 +36,19 @@ code {
   text-align: center;
   margin-top: 30px;
   padding-top: 30px;
+  border-radius: 20px;
+  border: solid 2px #ccc;
 }
 .card .img-card{
   width: 150px;
   height: 150px;
   margin-bottom: 20px;
-
+  border-radius: 20px;
+  border: solid 2px white;
+}
+.btn{
+  margin-top: 5px;
+  font-weight: bold;
 }
 .container-footer{
   display: flex;
@@ -50,4 +57,7 @@ code {
   background-color: #1d3557;
   font-weight: 900;
   height: 70px;
+}
+.footer{
+  font-size: 30px;
 }

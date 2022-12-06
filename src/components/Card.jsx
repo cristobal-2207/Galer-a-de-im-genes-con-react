@@ -8,6 +8,7 @@ const Card = ({imageCard, titleCard, textCard, altImage}) => {
           <h3>{titleCard}</h3>
           <p>{textCard}</p>
         </div>
+        <button className="btn btn-primary btn-sm">Adoptar</button>
       </div>
     </div>
     
